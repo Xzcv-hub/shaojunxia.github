@@ -38,18 +38,18 @@ portrait_caption: >-
 # academic and service:
 # - To date, I have published more than 15 peer-reviewed journal or conference papers, most of which were in SCI Q1 journals. I also have several ongoing projects and preprints available on arXiv.
 
-education:
-- To date, I have published more than 15 peer-reviewed journal or conference papers, most of which were in SCI Q1 journals. I also have several ongoing projects and preprints available on arXiv.
-# - name: Massachusetts Institute of Technology
-#   logo: /assets/images/badges/MIT_Social_circle.png
-#   position: >- 
-#     Department of Electrical Engineering and Computer Science <br/>
-#     Ph.D. Student
-#   date: Sep. 2024 - present
-- name: Peking University
-  logo: /assets/images/badges/PKU_red.png
-  position: B.S. in Computer Science
-  date: Sep. 2019 - Jul. 2021
+# education:
+# - To date, I have published more than 15 peer-reviewed journal or conference papers, most of which were in SCI Q1 journals. I also have several ongoing projects and preprints available on arXiv.
+# # - name: Massachusetts Institute of Technology
+# #   logo: /assets/images/badges/MIT_Social_circle.png
+# #   position: >- 
+# #     Department of Electrical Engineering and Computer Science <br/>
+# #     Ph.D. Student
+# #   date: Sep. 2024 - present
+# - name: Peking University
+#   logo: /assets/images/badges/PKU_red.png
+#   position: B.S. in Computer Science
+#   date: Sep. 2019 - Jul. 2021
 
 # experience:
 # - name: Peking University
@@ -58,6 +58,7 @@ education:
 #   date: Sep. 2019 - Jul. 2021
 
 awards:
+logo: /assets/images/badges/PKU_red.png
 - name: Award Name 2
   date: 2024
 - name: Award Name 1 
@@ -86,8 +87,8 @@ academic_service:
 
 - title: Reviewed Journals
   content: >-
-    Pattern Recognition, npj Digital Medicine, npj Precision Oncology,
-    Scientific Reports, Cancer Imaging, BMC Medical Imaging,
+    Pattern Recognition, Scientific Reports, npj Digital Medicine, npj Precision Oncology,
+    Cancer Imaging, BMC Medical Imaging,
     Physics and Imaging in Radiation Oncology,
     Biomedical Signal Processing and Control,
     Journal of Neural Engineering, Abdominal Radiology,
