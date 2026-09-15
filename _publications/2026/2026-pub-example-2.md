@@ -1,18 +1,15 @@
----
-title: "VLMemory: Vision-Language Memory for VLM Agents"
-date: 2026-09-15
-selected: true
-pub: "arXiv"
-pub_date: "2026"
-
+title:          "Lorem ipsum: Dolor sit amet, consectetur adipiscing elit"
+date:           2026-01-05 00:01:00 +0800
+selected:       true
+pub:            "Nature Communications"
+pub_date:       "2026"
 abstract: >-
-  We introduce VLMemory, a framework for memory in vision-language model agents.
-
+  Cover image is a photo by Thomas Renaud on Unsplash. The abstract of the publication is meant to be a TLDR (very brief summary with 1~2 sentences) of your paper.
+cover:          /assets/images/covers/cover1.jpg
 authors:
-  - Shao-Jun Xia
-  - Huixin Zhang
-  - Zhen Lei
-  - Anlan Sun
-  - Yuner Zhang
-  - Xiaoyang Chen
----
+- Your Name*
+- Robert White*
+- John Doe
+- Charles Green (Stanford)
+links:
+  Paper: https://www.cell.com
