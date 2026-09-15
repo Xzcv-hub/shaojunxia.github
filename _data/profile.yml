@@ -58,13 +58,17 @@ portrait_caption: >-
 #   date: Sep. 2019 - Jul. 2021
 
 awards:
-logo: /assets/images/badges/PKU_red.png
-- name: Award Name 2
-  date: 2024
-- name: Award Name 1 
-  date: 2021
-- name: A quick brown fox jumps over the lazy dog and runs away award
-  date: 2021
+- institution: Peking University
+- name: Outstanding Graduate Award
+  date: 2023
+- name: National Scholarship (0.2%)
+  date: 2022
+- name: Merit Student (10%)
+  date: 2022
+
+
+
+
 
 # academic_service:
 # - Publication Record: To date, I have published more than 15 peer-reviewed journal or conference papers, most of which were in SCI Q1 journals. I also have several ongoing projects and preprints available on arXiv.
@@ -77,7 +81,7 @@ academic_service:
 - title: Publication Record
   content: >-
     To date, I have published more than 15 peer-reviewed journal and conference papers,
-    most of which were published in SCI Q1 Track. I also have several ongoing projects
+    most of which were published in SCI Q1 track. I also have several ongoing projects
     and preprints available on arXiv.
 
 - title: Reviewer
