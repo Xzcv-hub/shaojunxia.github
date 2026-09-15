@@ -1,24 +1,33 @@
+
 <div class="row mt-3">
     <div class="col">
         <div class="card border-0 shadow-sm bg-white">
             <div class="card-body p-4">
-                <div class="row" data-masonry='{"percentPosition": true }'>
 
+                <div class="row" data-masonry='{"percentPosition": true }'>
 
                     {% if site.data.profile.experience %}
                     <div class="col-lg-6">
                         <div class="mx-2 my-1">
                             <h6>Experience</h6>
+
                             <ul class="list-unstyled mb-1">
                                 {% for item in site.data.profile.experience %}
                                 <li class="media mb-1">
-                                    <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 18px;" class="mr-1 mt-1">
+                                    <img src="{{ item.logo | relative_url }}"
+                                         alt="{{ item.name }}"
+                                         style="width: 18px;"
+                                         class="mr-1 mt-1">
+
                                     <div class="media-body">
                                         <div>{{ item.name }}</div>
                                         <div class="small">{{ item.dept }}</div>
+
                                         <div class="small d-flex">
                                             <div>{{ item.position }}</div>
-                                            <div class="mt-auto ml-auto no-break"><em>{{ item.date }}</em></div>
+                                            <div class="mt-auto ml-auto no-break">
+                                                <em>{{ item.date }}</em>
+                                            </div>
                                         </div>
                                     </div>
                                 </li>
@@ -28,36 +37,25 @@
                     </div>
                     {% endif %}
 
-                    <!-- {% if site.data.profile.academic_service %}
+
+                    {% if site.data.profile.academic_service %}
                     <div class="col-lg-6">
                         <div class="mx-2 my-1">
                             <h6>Academic Service</h6>
 
-                            <ul class="list-unstyled mb-1">
+                            <ul class="list small pl-3 mb-1">
                                 {% for item in site.data.profile.academic_service %}
-                                <li class="mb-1">
-                                    <div class="d-flex">
-                                        <div>
-                                            <strong>{{ item.name }}</strong>
-                                            {% if item.position %}
-                                            <br>
-                                            <span>{{ item.position }}</span>
-                                            {% endif %}
-                                        </div>
-
-                                        {% if item.date %}
-                                        <div class="ml-auto no-break">
-                                            <em>{{ item.date }}</em>
-                                        </div>
-                                        {% endif %}
-                                    </div>
+                                <li class="mb-2">
+                                    <strong>{{ item.title }}:</strong>
+                                    {{ item.content }}
                                 </li>
                                 {% endfor %}
                             </ul>
-
                         </div>
                     </div>
-                    {% endif %} -->
+                    {% endif %}
+
+
                     {% if site.data.profile.awards %}
                     <div class="col-lg-6">
                         <div class="mx-2 my-1">
@@ -65,15 +63,13 @@
 
                             {% for group in site.data.profile.awards %}
 
-                            <!-- Institution: no bullet -->
-                            <div class="small font-weight-bold mb-1">
+                            <div class="small mb-1">
                                 {{ group.institution }}
                             </div>
 
-                            <!-- Awards -->
-                            <ul class="list small pl-3 mb-2">
+                            <ul class="list small pl-3 mb-1">
                                 {% for award in group.items %}
-                                <li>
+                                <li class="mb-1">
                                     <div class="d-flex">
                                         <div>{{ award.name }}</div>
 
@@ -91,40 +87,10 @@
                         </div>
                     </div>
                     {% endif %}
-<!-- 
-                    {% if site.data.profile.awards %}
-                    <div class="col-lg-6">
-                        <div class="mx-2 my-1">
-                            <h6>Honors & Awards</h6>
-                            <ul class="list small pl-3 mb-1">
-                                {% for item in site.data.profile.awards %}
-                                <li>
-                                    <div class="d-flex">
-                                        <div>{{ item.name }}</div>
-                                        <div class="ml-auto mt-auto no-break"><em>{{ item.date }}</em></div>
-                                    </div>
-                                </li>
-                                {% endfor %}
-                            </ul>
-                        </div>
-                    </div>
-                    {% endif %} -->
-                    {% for group in site.data.cv.awards %}
-                    <div class="award-institution">
-                        {{ group.institution }}
-                    </div>
 
-                    <ul>
-                        {% for award in group.items %}
-                        <li>
-                            <span>{{ award.name }}</span>
-                            <span class="award-date">{{ award.date }}</span>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                    {% endfor %}
+                </div>  <!-- 关闭内部 masonry row -->
 
-            </div>
-        </div>
-    </div>
-</div>
+            </div>      <!-- 关闭 card-body -->
+        </div>          <!-- 关闭 card -->
+    </div>              <!-- 关闭 col -->
+</div>                  <!-- 关闭整个 row mt-3 -->
