@@ -35,16 +35,17 @@ portrait_url: /assets/images/photos/portrait.jpg
 portrait_caption: >-
   Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
 
+# academic and service:
+# - To date, I have published more than 15 peer-reviewed journal or conference papers, most of which were in SCI Q1 journals. I also have several ongoing projects and preprints available on arXiv.
+
 academic and service:
 - To date, I have published more than 15 peer-reviewed journal or conference papers, most of which were in SCI Q1 journals. I also have several ongoing projects and preprints available on arXiv.
-
-education:
-- name: Massachusetts Institute of Technology
-  logo: /assets/images/badges/MIT_Social_circle.png
-  position: >- 
-    Department of Electrical Engineering and Computer Science <br/>
-    Ph.D. Student
-  date: Sep. 2024 - present
+# - name: Massachusetts Institute of Technology
+#   logo: /assets/images/badges/MIT_Social_circle.png
+#   position: >- 
+#     Department of Electrical Engineering and Computer Science <br/>
+#     Ph.D. Student
+#   date: Sep. 2024 - present
 - name: Peking University
   logo: /assets/images/badges/PKU_red.png
   position: B.S. in Computer Science
