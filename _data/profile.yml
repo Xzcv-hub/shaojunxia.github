@@ -58,13 +58,19 @@ portrait_caption: >-
 #   date: Sep. 2019 - Jul. 2021
 
 awards:
-- name: Peking University
-- name: Outstanding Graduate Award
-  date: 2023
-- name: National Scholarship (0.2%)
-  date: 2022
-- name: Merit Student (10%)
-  date: 2022
+  - institution: Duke University
+    items:
+      - name: Travel Award
+        date: 2023
+
+  - institution: Peking University
+    items:
+      - name: Outstanding Graduate Award
+        date: 2023
+      - name: National Scholarship (0.2%)
+        date: 2022
+      - name: Merit Student (10%)
+        date: 2022
 
 
 

@@ -76,7 +76,7 @@
                         </div>
                     </div>
                     {% endif %}
-
+<!-- 
                     {% if site.data.profile.awards %}
                     <div class="col-lg-6">
                         <div class="mx-2 my-1">
@@ -93,8 +93,21 @@
                             </ul>
                         </div>
                     </div>
-                    {% endif %}
+                    {% endif %} -->
+                    {% for group in site.data.cv.awards %}
+                    <div class="award-institution">
+                        {{ group.institution }}
+                    </div>
 
+                    <ul>
+                        {% for award in group.items %}
+                        <li>
+                            <span>{{ award.name }}</span>
+                            <span class="award-date">{{ award.date }}</span>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                    {% endfor %}
                 </div>
 
             </div>
