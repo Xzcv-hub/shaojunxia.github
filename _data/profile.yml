@@ -19,13 +19,16 @@ twitter: your_twitter_id  # Do not include the '@' symbol
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    A <a href="https://en.wikipedia.org/wiki/Bicolor_cat" target="_blank">bicolor cat</a> is a cat with white fur combined with fur of some other colour, for example solid black, tabby, or colourpointed.
+    Hey! My name is Shaojun Xia.
   </p>
   <p>
     My current research interests focus on Image Processing, LLM/VLM, AI Agents, and Representation Learing. I am particularly interested in developing intelligent multimodal systems that integrate language, vision, and autonomous reasoning capabilities. I have also collaborated with researchers and engineers from industry, including Google, Meta, Foxconn, puffo.ai, etc, on research topics related to artificial intelligence. These collaborations have provided me with valuable understanding in connecting academic research with real-world industry trends.
   </p>
   <p>
     In addition, due to the nature of my previous research positions, I have been involved in a range of AI-related interdisciplinary research projects, primarily spanning medical imaging， signal processing, cancer research, and neuroscience.
+  </p>
+  <p>
+    I am open to collaborations of various kinds. For any suggestions please reach out to me via the email link on the left.
   </p>
 
 portrait_url: /assets/images/photos/portrait.jpg
