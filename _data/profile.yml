@@ -1,11 +1,11 @@
-primary_name: "Your Name"
+primary_name: "Shaojun Xia"
 secondary_name: ""
 navbar_name: "Your Name"
 
-positions:
-- name: Title or Position
-- name: Affiliation Name
-  logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
+# positions:
+# - name: Title or Position
+# - name: Affiliation Name
+#  logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
 
 
 email: "your@email.com"
