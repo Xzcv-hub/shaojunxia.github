@@ -56,6 +56,7 @@ Explore alternative visual styles in their own repositories.
 ### Acknowledgements
 
 The improvements of this template have been inspired by the customizations and feedbacks from the following users:
+
 - 😼 [onethousandwu.com](https://onethousandwu.com/): increased corner radius [[Repo]](https://github.com/oneThousand1000/oneThousand1000.github.io)
 - :star: [shiwonkim.github.io](https://shiwonkim.github.io/): two-column main page layout [[Repo]](https://github.com/shiwonkim/shiwonkim.github.io)
 - :star: [yqxie99.github.io](https://yqxie99.github.io/): blog feature [[Repo]](https://github.com/YQXie99/YQXie99.github.io/tree/feat/add_blog_page)
@@ -70,29 +71,29 @@ If you run into **any** issues while using this template, or have suggestions fo
 - [Need blogging feature?](https://github.com/luost26/academic-homepage/issues/13#issuecomment-2646371324)
 - [How to show citation count for papers?](https://github.com/luost26/academic-homepage/issues/29#issuecomment-3222496187)
 
-
 ## Getting Started
 
 1. First, click the "Use this template" button to create a new repository. The name of the repository should be `<your-github-username>.github.io` (click [here](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites) to learn more about naming a GitHub Pages repository).
 
 ### Running Locally (Debug & Preview)
 
-2. Follow the **step 1** and **step 2** of the instruction [here](https://jekyllrb.com/docs/) to install prerequisites and jekyll.
+For macOS checkout, after installing Homebrew Ruby 3.3, run `./scripts/preview.sh` to preview at `http://127.0.0.1:4000/` with automatic browser refresh.
 
-3. Clone your forked repository to your local machine.
+1. Follow the **step 1** and **step 2** of the instruction [here](https://jekyllrb.com/docs/) to install prerequisites and jekyll.
 
-4. Run the following command in the root directory of the repository:
+2. Clone your forked repository to your local machine.
+
+3. Install the dependencies, then run the following commands in the root directory of the repository:
 
    ```bash
+   bundle install
    bundle exec jekyll serve
    ```
 
-5. Browse to the displayed URL to see the website.
-
+4. Browse to the displayed URL to see the website.
 
 ### Deploying to GitHub Pages
 
-2. Go to the repository settings and enable GitHub Pages. Detailed instructions can be found [here](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site).
+1. Go to the repository settings and enable GitHub Pages. Detailed instructions can be found [here](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site).
 
-3. Navigate to your created website, and follow the instructions displayed on the homepage (if any) to finalize the setup.
-
+2. Navigate to your created website, and follow the instructions displayed on the homepage (if any) to finalize the setup.
