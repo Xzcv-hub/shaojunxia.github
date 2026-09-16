@@ -10,7 +10,7 @@ navbar_name: "Shaojun Xia"
 
 email: "nickya7070@gmail.com"
 # cv_link: link-to-your-cv-file
-gscholar: https://scholar.google.com/citations?user=lpwtUj4AAAAJ&hl=en  # This is an example, replace it with your own Google Scholar ID
+gscholar:   # This is an example, replace it with your own Google Scholar ID
 github: https://github.com/Xzcv-hub
 # twitter: your_twitter_id  # Do not include the '@' symbol
 # linkedin: your-linked-in-id
@@ -22,13 +22,18 @@ short_bio: >-
     Hey! My name is Shaojun Xia.
   </p>
   <p>
-    My current research interests focus on Image Processing, LLM/VLM, AI Agents, and Representation Learning. I am particularly interested in developing intelligent multimodal systems that integrate language, vision, and autonomous reasoning capabilities. I have also collaborated with researchers and engineers from industry, including Google, Meta, Foxconn, puffo.ai, etc, on research topics related to artificial intelligence. These collaborations have provided me with valuable understanding in connecting academic research with real-world industry trends.
-  </p>
+    My current research interests focus on Image Processing, LLM/VLM, AI Agents, and Representation Learning. I am particularly interested in developing intelligent multimodal systems that integrate language, vision, and autonomous reasoning capabilities. I have also collaborated with researchers and engineers from industry, including Google, Meta, Foxconn, puffo.ai, etc, on research topics related to artificial intelligence. These collaborations have provided me with valuable understanding in connecting academic research with real-world industry trends. At the same time, I also have some work experience with researchers and students in CS at several institutions (US and Europe).
+
   <p>
     Previously, due to the nature of my research positions, I have been engaged in a range of AI-related interdisciplinary projects, primarily spanning medical imaging, signal processing, cancer, and neuroscience.
   </p>
   <p>
-    I am open to collaborations of various kinds. For any suggestions, please reach out to me via the email link on the left.
+    To date, I have published more than 15 peer-reviewed journal and conference papers,
+    many of which were in JCR Q1 track. I also have several ongoing projects
+    and preprints (under submission or revision) available on arXiv.
+  </p>
+  <p>
+    I am open to collaborations. For any suggestions, please reach out to me via the email link on the left.
   </p>
 
 portrait_url: /assets/images/photos/portrait.jpg
@@ -84,20 +89,15 @@ awards:
 # - Reviewed Journals: Pattern Recognition, npj Digital Medicine, npj Precision Oncology, Scientific Reports, Cancer Imaging, BMC Medical Imaging, Physics and Imaging in Radiation Oncology, Biomedical Signal Processing and
 # Control, Journal of Neural Engineering, Abdominal Radiology, BMC Cancer, Brain Imaging and Behavior
 academic_service:
-- title: Publication Record
-  content: >-
-    To date, I have published more than 15 peer-reviewed journal and conference papers,
-    most of which were in SCI Q1 track. I also have several ongoing projects
-    and preprints available on arXiv.
 
 - title: Reviewer
   content: >-
     Trusted Reviewer for Springer Nature; Reviewer for Elsevier and IOP;
     Lead Reviewer at SC25 (HPC for Machine Learning Track).
 
-- title: Reviewed Journals
-  content: >-
-    Pattern Recognition, Scientific Reports, npj Digital Medicine, npj Precision Oncology, 
-    Journal of Neural Engineering, Brain Imaging and Behavior,
-    Cancer Imaging, BMC Medical Imaging,
-    Physics and Imaging in Radiation Oncology, Biomedical Signal Processing and Control, Abdominal Radiology.
+# - title: Reviewed Journals
+#   content: >-
+#     Pattern Recognition, Scientific Reports, npj Digital Medicine, npj Precision Oncology, 
+#     Journal of Neural Engineering, Brain Imaging and Behavior,
+#     Cancer Imaging, BMC Medical Imaging,
+#     Physics and Imaging in Radiation Oncology, Biomedical Signal Processing and Control, Abdominal Radiology.
