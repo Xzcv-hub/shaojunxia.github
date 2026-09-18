@@ -6,7 +6,7 @@ selected:       true
 pub:            "arXiv preprint"
 pub_date:       "2025"
 abstract: >-
-  T2T-VICL translates mismatched visual demonstrations into implicit text prompts for cross-task visual in-context learning. A teacher-student framework guides frozen image-editing VLMs and improves task-aware alignment across 12 low-level vision tasks.
+  T2T-VICL uses a teacher-distilled student VLM to turn a demonstration from one task and a query from another into implicit text prompts for frozen image-editing VLMs. Experiments span 12 low-level vision tasks, measuring task-aware alignment and image fidelity.
 # Original image: Previous/VICL/Task-Transfer/docs/assets/framework.png
 cover:          /assets/images/covers/t2t-vicl.png
 authors:

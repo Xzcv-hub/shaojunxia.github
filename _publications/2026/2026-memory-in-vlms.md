@@ -6,14 +6,13 @@ selected:       true
 pub:            "Preprints.org preprint"
 pub_date:       "2026"
 abstract: >-
-  A survey of memory mechanisms in VLMs organized by four dimensions: when information is retained, where it is stored, what it represents, and how it is managed. It connects memory architectures with evaluation protocols and applications in long-video understanding, multimodal dialogue, and embodied agents.
+  A survey of memory mechanisms in VLMs organized by four dimensions: temporal scope, storage location, stored representations, and memory operations. It connects memory architectures with evaluation protocols and applications in long-video understanding, multimodal dialogue, and embodied agents.
 # Rendered from /Users/dylanxin/Project/memory.pdf at 3000 × 2241 pixels.
 cover:          /assets/images/covers/memory-in-vlms.png
-# Author order and contribution markers follow the public v2 manuscript.
+# Based on the public v2 manuscript, with the author's updated author list.
 authors:
   - Shao-Jun Xia
   - Yizhuo He*
-  - Jiashen Liu*
   - Yuner Zhang*
   - Yifan Jiang#
   - Xiaoyang Chen#

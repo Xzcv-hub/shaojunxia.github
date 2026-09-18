@@ -6,20 +6,20 @@ selected:       true
 pub:            "SSRN preprint"
 pub_date:       "2025"
 abstract: >-
-  This survey organizes hallucinations in LLMs, VLMs, and MLLMs through a taxonomy inspired by cognitive science and psychology. It connects definitions and underlying causes with mitigation strategies, cross-modal challenges, and directions toward more reliable AI systems.
-# Rendered from /Users/dylanxin/Project/hallucination.pdf at 3000 × 2045 pixels.
-cover:          /assets/images/covers/rethinking-hallucinations.png
-# Author order follows SSRN; no contribution markers, as requested.
+  This survey proposes a cognitive-inspired taxonomy of hallucinations: perceptual misalignment, context drift, and factual miscalibration. It reviews causes, detection methods, evaluation benchmarks, and mitigation strategies across LLMs, VLMs, and broader multimodal systems.
+# Rendered from /Users/dylanxin/Desktop/fig_factual_model.pdf at 3000 × 2070 pixels.
+cover:          /assets/images/covers/rethinking-hallucinations-factual-model.png
+# Author order follows SSRN; PDF contribution markers confirmed by the author.
 authors:
-  - Shao-Jun Xia
-  - Yifan Jiang
-  - Xiaoyang Chen
+  - Shao-Jun Xia*
+  - Yifan Jiang*
+  - Xiaoyang Chen#
   - Yizhuo He
   - Zitong Li
   - Zhongwei Wan
   - Anlan Sun
-  - Hao Zheng
-  - Jay Pujara
+  - Hao Zheng#
+  - Jay Pujara#
 links:
   Paper: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5731427
   Code: https://github.com/Xuezai-wq/hallucination-survey

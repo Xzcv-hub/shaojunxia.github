@@ -6,7 +6,7 @@ selected:       true
 pub:            "arXiv preprint"
 pub_date:       "2026"
 abstract: >-
-  Collaborative visual memory links observations, agent interpretations, and dependent reasoning across VLM agents. The paper proposes memory hierarchies, selective sharing, and revision mechanisms to recover missing context and revisit conclusions when interpretations change.
+  This conceptual paper proposes shared visual memory that links observations, agent interpretations, and dependent reasoning. It outlines memory hierarchies, selective sharing, and revision mechanisms so collaborators can retrieve missing context and identify conclusions that need review when interpretations change.
 # Compiled from Multi-Agent-Memory/latex/aamas/fig/1_motivation.tex,
 # using the TikZ styles in arxiv.tex; rendered at 2400 × 1594 pixels.
 cover:          /assets/images/covers/collaborative-memory.png

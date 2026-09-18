@@ -6,7 +6,7 @@ selected:       true
 pub:            "Manuscript"
 pub_date:       "2026"
 abstract: >-
-  Agentic Representation Learning proposes reusable behavioral representations of AI agents and a characterizer agent that learns them through cost-aware black-box interactions. The framework connects agent structure, observable behavior, and downstream tasks to support understanding, comparison, and adaptation in multi-agent systems.
+  Agentic Representation Learning proposes a conceptual framework for learning reusable behavioral representations of AI agents from limited black-box interaction. The proposed characterizer selects informative probes under a cost budget, aiming to support behavior prediction and downstream agent adaptation.
 # Rendered from Multi-Agent-Memory/latex_other/fig/2.pdf at 3000 × 1011 pixels.
 # Selected the latest figure version (modified 2026-09-16 17:39 local time).
 cover:          /assets/images/covers/agentic-representation-learning.png
