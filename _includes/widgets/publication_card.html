@@ -3,14 +3,18 @@
     <div class="border-bottom border-gray p-3">
         <h6 class="mb-2">
             {% if include.title %}{{ include.title }}{% else %}<i class="fas fa-star"></i> Selected Recent Publications{% endif %}
+            {% comment %}
             <a href="{{ 'publications' | relative_url }}">(view all <i class="fas fa-angle-double-right"></i>)</a>
+            {% endcomment %}
         </h6>
         {% include widgets/publication_legend.html %}
     </div>
     {% for item in publications limit:include.limit %}
         {% include widgets/publication_item.html item=item first=false last=false %}    
     {% endfor %}
+    {% comment %}
     <h6 class="d-block p-3 mt-0 text-right">
         <a href="{{ 'publications' | relative_url }}">All publications <i class="fas fa-angle-double-right"></i></a>
     </h6>
+    {% endcomment %}
 </div>
