@@ -11,7 +11,7 @@ navbar_name: "Shaojun Xia"
 email: "nickya7070@gmail.com"
 # cv_link: link-to-your-cv-file
 gscholar: https://scholar.google.com/citations?user=lpwtUj4AAAAJ&hl=en # This is an example, replace it with your own Google Scholar ID
-github: https://github.com/Xzcv-hub  # GitHub username; the profile templates add https://github.com/
+github:  # GitHub username; the profile templates add https://github.com/
 # twitter: your_twitter_id  # Do not include the '@' symbol
 # linkedin: your-linked-in-id
 # orcid: 0000-0000-0000-0000
