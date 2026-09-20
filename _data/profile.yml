@@ -10,8 +10,8 @@ navbar_name: "Shaojun Xia"
 
 email: "nickya7070@gmail.com"
 # cv_link: link-to-your-cv-file
-gscholar:   # This is an example, replace it with your own Google Scholar ID
-github: Xzcv-hub  # GitHub username; the profile templates add https://github.com/
+gscholar: https://scholar.google.com/citations?user=lpwtUj4AAAAJ&hl=en # This is an example, replace it with your own Google Scholar ID
+github: https://github.com/Xzcv-hub  # GitHub username; the profile templates add https://github.com/
 # twitter: your_twitter_id  # Do not include the '@' symbol
 # linkedin: your-linked-in-id
 # orcid: 0000-0000-0000-0000
@@ -22,7 +22,7 @@ short_bio: >-
     Hey! My name is Shaojun Xia.
   </p>
   <p>
-    My current research interests focus on Image Processing, LLM/VLM, AI Agents, and Representation Learning. I am particularly interested in developing intelligent multimodal systems that integrate language, vision, and autonomous reasoning capabilities. I have also collaborated with researchers and engineers from industry, including Google, Meta, Foxconn, puffo.ai, etc, on research topics related to artificial intelligence. These collaborations have provided me with valuable understanding in connecting academic research with real-world industry trends. At the same time, I also have some work experience with researchers and students in CS at several institutions (US and Europe).
+    My current research interests focus on Image Processing, LLM/VLM, AI Agents, and Representation Learning. I am particularly interested in developing intelligent multimodal systems that integrate language, vision, and autonomous reasoning capabilities. I have collaborated with researchers and engineers from industry, including Google, Meta, Foxconn, puffo.ai, etc, on research topics related to artificial intelligence. These collaborations have provided me with valuable understanding in connecting academic research with real-world industry trends. At the same time, I also have some work experience with researchers and students in CS at several institutions (US and Europe).
   </p>
 
   <p>
