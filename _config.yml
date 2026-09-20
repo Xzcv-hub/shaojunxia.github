@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-baseurl: "/home" # GitHub Pages project path; use "" for a username.github.io repository.
+baseurl: "/shaojunxia.github.io" # GitHub Pages project path; use "" for a username.github.io repository.
 
 # Build settings
 markdown: kramdown
