@@ -96,9 +96,9 @@ academic_service:
     Trusted Reviewer for Springer Nature; Reviewer for Elsevier and IOP;
     Lead Reviewer at SC25 (HPC for Machine Learning Track), NeurIPS.
 
-# - title: Reviewed Journals
-#   content: >-
-#     Pattern Recognition, Scientific Reports, npj Digital Medicine, npj Precision Oncology, 
-#     Journal of Neural Engineering, Brain Imaging and Behavior,
+title: Reviewed Journals (Partial)
+  content: >-
+    Pattern Recognition, Scientific Reports, npj Digital Medicine, npj Precision Oncology, 
+    Journal of Neural Engineering, Brain Imaging and Behavior, Cancer Imaging.
 #     Cancer Imaging, BMC Medical Imaging,
-#     Physics and Imaging in Radiation Oncology, Biomedical Signal Processing and Control, Abdominal Radiology.
+#     Physics and Imaging in Radiation Oncology, Biomedical Signal Processing and Control, Abdominal Radiology, Physiological Measurement.
